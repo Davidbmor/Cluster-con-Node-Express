@@ -150,7 +150,8 @@ Y accedemos a la dirección [http://localhost:3000/api/5000000000](http://localh
 ![Captura de Pantalla](./imgs/concluster.jpg)
 ![Captura de Pantalla](./imgs/concluster2.jpg)
 ```bash
-# Nota: En mi caso no se logra ver la diferencia en esta prueba aunque en las pruebas realizadas en el apartado de métricas de rendimiento si lo demuestra.
+# Nota: En mi caso no se logra ver la diferencia en esta prueba aunque en
+# las pruebas realizadas en el apartado de métricas de rendimiento si lo demuestra.
 ```
 
 ## Métricas de rendimiento
@@ -174,7 +175,8 @@ loadtest http://localhost:3000/api/500000 -n 1000 -c 100
 En mi caso antes de ejecutar el comando me salía el siguiente error:
 
 ```bash
-loadtest : No se puede cargar el archivo C:\Users\Usuario\AppData\Roaming\npm\loadtest.ps1 porque la ejecución de scripts está deshabilitada en este sistema.
+loadtest : No se puede cargar el archivo C:\Users\Usuario\AppData\Roaming\npm\loadtest.ps1 porque
+la ejecución de scripts está deshabilitada en este sistema.
 ```
 
 Para solucionar este error ejecutamos el siguiente comando en la terminal de PowerShell como administrador:
