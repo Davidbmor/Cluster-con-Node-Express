@@ -406,6 +406,5 @@ C:\Users\Usuario\.pm2\logs\index-error.log last 15 lines:
  ¿Sabrías decir por qué en algunos casos concretos, como este, la aplicación sin clusterizar tiene
  mejores resultados?
 
- ```plaintext
-    En algunos casos concretos, como este, la aplicación sin clusterizar tiene mejores resultados debido a que el uso de clústeres implica un mayor consumo de recursos, ya que cada proceso secundario requiere memoria y CPU adicionales. En situaciones en las que el cálculo es relativamente pequeño y no requiere una gran cantidad de recursos, la aplicación sin clústeres puede ser más eficiente. Sin embargo, en general, el uso de clústeres es beneficioso para aplicaciones que realizan tareas intensivas en CPU o que necesitan manejar múltiples solicitudes simultáneamente, ya que permite aprovechar al máximo los recursos disponibles y mejorar el rendimiento de la aplicación.
-```
+En algunos casos concretos, como este, la aplicación sin clusterizar tiene mejores resultados debido a que el uso de clústeres implica un mayor consumo de recursos, ya que cada proceso secundario requiere memoria y CPU adicionales. En situaciones en las que el cálculo es relativamente pequeño y no requiere una gran cantidad de recursos, la aplicación sin clústeres puede ser más eficiente. Sin embargo, en general, el uso de clústeres es beneficioso para aplicaciones que realizan tareas intensivas en CPU o que necesitan manejar múltiples solicitudes simultáneamente, ya que permite aprovechar al máximo los recursos disponibles y mejorar el rendimiento de la aplicación.
+
